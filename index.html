@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
   <head>
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-    <!-- <h1>{{hello}}</h1>
-    <input type="text" ng-model="hello"/> -->
-    <p>wassup</p>
+    <h1>Greet anyone!</h1>
+    <h4>What do you want to say?</h4>
+    <input type="text" ng-model="firstGreeting"/>
+    <br>
+    <h4>Who do you want to say it to?</h4>
+    <input type="text" ng-model="secondGreeting"/>
+    <h2>{{firstGreeting}}</h2>
+    <h2>{{secondGreeting}}</h2>
   </body>
-  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script> -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
 </html>

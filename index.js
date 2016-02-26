@@ -1,6 +1,5 @@
 var Hapi   = require('hapi');
 var Inert  = require('inert');
-var Index  = require('./index.html');
 
 var server = new Hapi.Server();
 
